@@ -56,6 +56,7 @@ team-task-manager/
 │   └── style.css
 │
 └── .gitignore
+
 🔑 Environment Variables
 
 Create a .env file inside the backend folder:
@@ -68,6 +69,7 @@ JWT_SECRET=supersecretkey
 
 🚀 How to Run Locally
 1️⃣ Clone the repository
+
 git clone https://github.com/harshhita2/team-task-manager.git
 
 cd team-task-manager
@@ -75,12 +77,15 @@ cd team-task-manager
 2️⃣ Setup Backend
 
 cd backend
+
 npm install
+
 npm start
 
 3️⃣ Setup Frontend
 
 Open frontend/index.html in your browser
+
 OR use Live Server in VS Code
 
 🌍 Deployment
@@ -107,4 +112,5 @@ Ensure MongoDB Network Access allows your backend (e.g., 0.0.0.0/0 for developme
 👩‍💻 Author
 
 Harshita Khetan
+
 🔗 GitHub: https://github.com/harshhita2
