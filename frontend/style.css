@@ -1,0 +1,109 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  color: #2f3640;
+}
+
+/* CARD STYLE */
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* INPUTS */
+input, select {
+  padding: 8px;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* BUTTONS */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #40739e;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #273c75;
+}
+
+/* LOGOUT BUTTON */
+button.danger {
+  background: #e84118;
+}
+
+button.danger:hover {
+  background: #c23616;
+}
+
+/* TASK LIST */
+li {
+  margin: 10px 0;
+  padding: 8px;
+  background: #f1f2f6;
+  border-radius: 5px;
+}
+
+/* STATUS COLORS */
+.done {
+  color: green;
+  font-weight: bold;
+}
+
+.todo {
+  color: orange;
+  font-weight: bold;
+}
+
+.inprogress {
+  color: blue;
+  font-weight: bold;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Status colors */
+.done {
+  color: green;
+  font-weight: bold;
+}
+
+.inprogress {
+  color: blue;
+  font-weight: bold;
+}
+
+.todo {
+  color: orange;
+  font-weight: bold;
+}
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}

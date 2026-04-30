@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Task Manager</h1>
+
+    <!-- AUTH -->
+    <div class="card">
+      <h3>Login</h3>
+      <input id="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+      <button class="danger" onclick="logout()">Logout</button>
+    </div>
+
+    <!-- CREATE PROJECT -->
+    <div class="card">
+      <h3>Create Project</h3>
+      <input id="projectName" placeholder="Project Name" />
+      <button onclick="createProject()">Create Project</button>
+    </div>
+
+    <!-- CREATE TASK -->
+    <div class="card">
+      <h3>Create Task</h3>
+      <input id="taskTitle" placeholder="Task Title" />
+
+      <select id="projectDropdown">
+        <option value="">Select Project</option>
+      </select>
+
+      <select id="status">
+        <option value="To Do">To Do</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Done">Done</option>
+      </select>
+
+      <button onclick="createTask()">Create Task</button>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="card">
+      <h3>Dashboard</h3>
+      <div id="dashboard"></div>
+    </div>
+
+    <!-- TASK LIST -->
+    <div class="card">
+      <h3>Your Tasks</h3>
+      <ul id="taskList"></ul>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
