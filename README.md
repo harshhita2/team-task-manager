@@ -60,32 +60,41 @@ team-task-manager/
 
 Create a .env file inside the backend folder:
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+MONGO_URI=mongodb+srv://harshitakhetan2002_db_user:Pb6P34Ti6SQOS42z@cluster0.3mlhmrf.mongodb.net/taskmanager?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=supersecretkey
+
 
 ⚠️ Important: Never share your real database credentials publicly.
 
 🚀 How to Run Locally
 1️⃣ Clone the repository
 git clone https://github.com/harshhita2/team-task-manager.git
+
 cd team-task-manager
+
 2️⃣ Setup Backend
+
 cd backend
 npm install
 npm start
+
 3️⃣ Setup Frontend
 
 Open frontend/index.html in your browser
 OR use Live Server in VS Code
 
 🌍 Deployment
+
 Frontend (Netlify)
 Base directory: frontend
 Publish directory: frontend
+
 Backend (Render)
 Environment variables configured
 Connected to MongoDB Atlas
+
 ⚠️ Notes
+
 First request may be slow due to Render free tier (cold start)
 Ensure MongoDB Network Access allows your backend (e.g., 0.0.0.0/0 for development)
 📈 Future Improvements
@@ -94,6 +103,7 @@ Ensure MongoDB Network Access allows your backend (e.g., 0.0.0.0/0 for developme
 🔄 Loading indicators & better UX
 📱 Fully responsive design
 🔐 Token expiration handling
+
 👩‍💻 Author
 
 Harshita Khetan
