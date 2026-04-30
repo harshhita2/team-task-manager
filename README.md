@@ -102,12 +102,12 @@ Connected to MongoDB Atlas
 
 First request may be slow due to Render free tier (cold start)
 Ensure MongoDB Network Access allows your backend (e.g., 0.0.0.0/0 for development)
-📈 Future Improvements
-✏️ Edit & Delete Tasks
-📊 Task Status Filtering
-🔄 Loading indicators & better UX
-📱 Fully responsive design
-🔐 Token expiration handling
+-📈 Future Improvements
+-✏️ Edit & Delete Tasks
+-📊 Task Status Filtering
+-🔄 Loading indicators & better UX
+-📱 Fully responsive design
+-🔐 Token expiration handling
 
 👩‍💻 Author
 
