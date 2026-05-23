@@ -98,7 +98,7 @@ export default function Landing() {
               <Layers className="h-5 w-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-              NeuroFlow
+              TeamPulse
             </span>
           </div>
 
@@ -155,7 +155,7 @@ export default function Landing() {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed mb-10">
-          NeuroFlow combines AI predictions, behavioral analytics, and dependency intelligence to keep your projects on track — before problems even happen.
+          TeamPulse combines AI predictions, behavioral analytics, and dependency intelligence to keep your projects on track — before problems even happen.
         </p>
 
         {/* CTA Buttons */}
@@ -336,7 +336,7 @@ export default function Landing() {
                     <div>
                       <h4 className="text-sm font-semibold text-purple-300 mb-1">Delay Prediction Engine</h4>
                       <p className="text-sm text-slate-300 leading-relaxed">
-                        By training on past task complexity, assignees, and pull request review times, NeuroFlow models delivery deadlines. This prevents overcommitment and guarantees sprint schedules.
+                        By training on past task complexity, assignees, and pull request review times, TeamPulse models delivery deadlines. This prevents overcommitment and guarantees sprint schedules.
                       </p>
                     </div>
                   </div>
@@ -606,7 +606,7 @@ export default function Landing() {
               Project management, rebuilt from the ground up
             </h2>
             <p className="text-slate-400 leading-relaxed text-sm md:text-base">
-              Eliminate sheets and endless status tracking. NeuroFlow gives your workspace real-time metrics, Kanban ease, and active risk prediction.
+              Eliminate sheets and endless status tracking. TeamPulse gives your workspace real-time metrics, Kanban ease, and active risk prediction.
             </p>
           </div>
 
@@ -651,11 +651,11 @@ export default function Landing() {
             <div className="h-8 w-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center">
               <Layers className="h-4 w-4 text-white" />
             </div>
-            <span className="text-lg font-bold text-white">NeuroFlow</span>
+            <span className="text-lg font-bold text-white">TeamPulse</span>
           </div>
 
           <div className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} NeuroFlow. Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} TeamPulse. Inc. All rights reserved.
           </div>
 
           <div className="flex items-center gap-6 text-sm text-slate-400">
